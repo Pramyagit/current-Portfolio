@@ -18,13 +18,13 @@ export const About = () => {
           data-aos-easing="ease-in-sine"
           data-aos-duration="600"
         >
-          I am Ramya, a passionate and hardworking fresher eager to begin my
+          I am Ramya, a passionate and hardworking Person eager to start my
           career in web development. I have a strong foundation in front-end
           technologies like HTML, CSS, JavaScript, and React.js, which enables
           me to build responsive and interactive websites. In addition to my
-          technical skills, I am proficient in using Bootstrap for styling,
-          GitHub for version control, and Figma for designing user-friendly
-          interfaces.
+          technical skills, I am proficient in using Excel, Bootstrap for
+          styling, GitHub for version control, and Figma for designing
+          user-friendly interfaces.
         </div>
         <div
           data-aos="fade-left"
@@ -46,7 +46,9 @@ export const About = () => {
       >
         Feel free connect here---
         <button className="btn-link glow-on-hover">
-          <a href="">Linked-in</a>
+          <a href="https://www.linkedin.com/in/ramya-palaniyandi-a5b935231/">
+            Linked-in
+          </a>
         </button>
       </p>
     </div>

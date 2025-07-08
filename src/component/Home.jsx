@@ -33,10 +33,11 @@ export const Home = () => {
             data-aos="fade-right"
             data-delay="1100"
           >
-            <a href="/contact">Contact</a>
+            <a href="/Contact">Contact</a>
           </button>
           <button
             className="button-resume"
+            type="button"
             data-aos="fade-down"
             data-delay="1150"
           >
@@ -44,7 +45,7 @@ export const Home = () => {
               Download Resume
             </a>
           </button>
-          <div className="home_social" data-aos="fade-right" data-delay="1100">
+          <div className="home_social" data-aos="fade-right" data-delay="1150">
             <a href="https://www.facebook.com/" className="home_social-icon">
               <i className="bx bxl-facebook-circle "></i>
             </a>

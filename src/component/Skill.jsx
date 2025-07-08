@@ -24,137 +24,185 @@ export const Skill = () => {
             >
               professional skills
             </h2>
-            {/* html */}
-            <div
-              className="skills_data"
-              data-aos="fade-left"
-              data-aos-delay="1200"
-              data-aos-easing="ease-in-sine"
-            >
-              <div className="skills_name">
-                <i
-                  className="bx bxl-html5 html skill_icon"
-                  data-aos="fade-left"
-                  data-aos-delay="1300"
-                  data-aos-easing="ease-in-sine"
-                ></i>
-                <box-icon name="html5" animation="tada:hover"></box-icon>
-                <span className="skill_name">html5</span>
-              </div>
-              <div>
+            <div className="columns-container">
+              {/* html */}
+              <div
+                className="skills_data"
+                data-aos="fade-left"
+                data-aos-delay="1200"
+                data-aos-easing="ease-in-sine"
+              >
+                <div className="skills_name">
+                  <i
+                    className="bx bxl-html5 html skill_icon"
+                    data-aos="fade-left"
+                    data-aos-delay="1300"
+                    data-aos-easing="ease-in-sine"
+                  ></i>
+                  <box-icon name="html5" animation="tada:hover"></box-icon>
+                  <span className="skill_name">html5</span>
+                </div>
+                {/* <div>
                 <span className="skill_percentage">95%</span>
+              </div> */}
+                <div className="skill_bar skill_html"></div>
               </div>
-              <div className="skill_bar skill_html"></div>
-            </div>
-            {/*  */}
-            <div
-              className="skills_data"
-              data-aos="fade-left"
-              data-aos-delay="1350"
-            >
-              <div className="skills_name">
-                <i className="bx bxs-file-css css skill_icon"></i>
-                <box-icon name="css" animation="tada"></box-icon>
-                <span className="skill_name">css</span>
-              </div>
-              <div>
+              {/*  */}
+              <div
+                className="skills_data"
+                data-aos="fade-left"
+                data-aos-delay="1350"
+              >
+                <div className="skills_name">
+                  <i className="bx bxs-file-css css skill_icon"></i>
+                  <box-icon name="css" animation="tada"></box-icon>
+                  <span className="skill_name">css</span>
+                </div>
+                {/* <div>
                 <span className="skill_percentage">90%</span>
+              </div> */}
+                <div className="skill_bar skill_css"></div>
               </div>
-              <div className="skill_bar skill_css"></div>
-            </div>
-            {/*  */}
-            <div
-              className="skills_data"
-              data-aos="fade-left"
-              data-aos-delay="1400"
-              data-aos-easing="ease-in-sine"
-            >
-              <div className="skills_name">
-                <i className="bx bxl-javascript js skill_icon"></i>
-                <span className="skill_name">javascript</span>
-              </div>
-              <div>
+              {/*  */}
+              <div
+                className="skills_data"
+                data-aos="fade-left"
+                data-aos-delay="1400"
+                data-aos-easing="ease-in-sine"
+              >
+                <div className="skills_name">
+                  <i className="bx bxl-javascript js skill_icon"></i>
+                  <span className="skill_name">javascript</span>
+                </div>
+                {/* <div>
                 <span className="skill_percentage">80%</span>
+              </div> */}
+                <div className="skill_bar skill_javascript"></div>
               </div>
-              <div className="skill_bar skill_javascript"></div>
-            </div>
-            {/*  */}
-            <div
-              className="skills_data"
-              data-aos="fade-left"
-              data-aos-delay="1450"
-              data-aos-easing="ease-in-sine"
-            >
-              <div className="skills_name">
-                <i className="bx bxl-bootstrap bootstrap skill_icon"></i>
-                <span className="skill_name">bootstrap</span>
-              </div>
-              <div>
+              {/*  */}
+              <div
+                className="skills_data"
+                data-aos="fade-left"
+                data-aos-delay="1450"
+                data-aos-easing="ease-in-sine"
+              >
+                <div className="skills_name">
+                  <i className="bx bxl-bootstrap bootstrap skill_icon"></i>
+                  <span className="skill_name">bootstrap</span>
+                </div>
+                {/* <div>
                 <span className="skill_percentage">80%</span>
+              </div> */}
+                <div className="skill_bar skill_bootstrap"></div>
               </div>
-              <div className="skill_bar skill_bootstrap"></div>
-            </div>
-            {/*  */}
-            <div
-              className="skills_data"
-              data-aos="fade-left"
-              data-aos-delay="1500"
-              data-aos-easing="ease-in-sine"
-            >
-              <div className="skills_name">
-                <i className="bx bxl-react react skill_icon"></i>
-                <span className="skill_name">react</span>
-              </div>
-              <div>
+              {/*  */}
+              <div
+                className="skills_data"
+                data-aos="fade-left"
+                data-aos-delay="1500"
+                data-aos-easing="ease-in-sine"
+              >
+                <div className="skills_name">
+                  <i className="bx bxl-tailwind-css tailwind-css skill_icon"></i>
+                  <span className="skill_name">Tailwind</span>
+                </div>
+                {/* <div>
                 <span className="skill_percentage">80%</span>
+              </div> */}
+                <div className="skill_bar skill_react"></div>
               </div>
-              <div className="skill_bar skill_react"></div>
-            </div>
-            {/*  */}
-            <div
-              className="skills_data"
-              data-aos="fade-left"
-              data-aos-delay="1550"
-              data-aos-easing="ease-in-sine"
-            >
-              <div className="skills_name">
-                <i className="bx bxl-figma fig skill_icon"></i>
-                <span className="skill_name">figma</span>
+              {/*  */}
+              <div
+                className="skills_data"
+                data-aos="fade-left"
+                data-aos-delay="1500"
+                data-aos-easing="ease-in-sine"
+              >
+                <div className="skills_name">
+                  <i className="bx bxl-react react skill_icon"></i>
+                  <span className="skill_name">react</span>
+                </div>
+                {/* <div>
+                <span className="skill_percentage">80%</span>
+              </div> */}
+                <div className="skill_bar skill_react"></div>
               </div>
-              <div>
+              {/*  */}
+              <div
+                className="skills_data"
+                data-aos="fade-left"
+                data-aos-delay="1500"
+                data-aos-easing="ease-in-sine"
+              >
+                <div className="skills_name">
+                  <i className="bx bxl-figma fig skill_icon"></i>
+                  <span className="skill_name">figma</span>
+                </div>
+                {/* <div>
                 <span className="skill_percentage">85%</span>
+              </div> */}
+                <div className="skill_bar skill_figma"></div>
               </div>
-              <div className="skill_bar skill_figma"></div>
-            </div>
-            {/*  */}
-            <div
-              className="skills_data"
-              data-aos="fade-left"
-              data-aos-delay="1650"
-            >
-              <div className="skills_name">
-                <i className="bx bxl-ui ui skill_icon">ux/ui</i>
-                <span className="skill_name">UI/UX</span>
-              </div>
-              <div>
+              {/*  */}
+              <div
+                className="skills_data"
+                data-aos="fade-left"
+                data-aos-delay="1500"
+              >
+                <div className="skills_name">
+                  <i className="bx bxl-ui ui skill_icon">ui/ux</i>
+                  <span className="skill_name">UI/UX</span>
+                </div>
+                {/* <div>
                 <span className="skill_percentage">80%</span>
+              </div> */}
+                <div className="skill_bar skill_ui"></div>
               </div>
-              <div className="skill_bar skill_ui"></div>
-            </div>
-            {/*  */}
-            <div
-              className="skills_data"
-              data-aos="fade-left"
-              data-aos-delay="1750"
-            >
-              <div className="skills_name">
-                <i className="bx bxl-python python skill_icon"></i>
-                <span className="skill_name">python</span>
-              </div>
-              <div>
+              {/*  */}
+              <div
+                className="skills_data"
+                data-aos="fade-left"
+                data-aos-delay="1500"
+              >
+                <div className="skills_name">
+                  <i className="bx bxl-python python skill_icon"></i>
+                  <span className="skill_name">python Basic</span>
+                </div>
+                {/* <div>
                 <span className="skill_percentage">50%</span>
+              </div> */}
+                <div className="skill_bar skill_python"></div>
               </div>
-              <div className="skill_bar skill_python"></div>
+              {/*..*/}
+              <div
+                className="skills_data"
+                data-aos="fade-left"
+                data-aos-delay="1500"
+              >
+                <div className="skills_name">
+                  <i className="bx bxl-excel excel skill_icon"></i>
+                  <span className="skill_name">Excel</span>
+                </div>
+                {/* <div>
+                <span className="skill_percentage">50%</span>
+              </div> */}
+                <div className="skill_bar skill_excel"></div>
+              </div>
+              {/*  */}
+              <div
+                className="skills_data"
+                data-aos="fade-left"
+                data-aos-delay="1500"
+              >
+                <div className="skills_name">
+                  <i className="bx bxl-sql sql skill_icon"></i>
+                  <span className="skill_name">SQL&MysQL</span>
+                </div>
+                {/* <div>
+                <span className="skill_percentage">50%</span>
+              </div> */}
+                <div className="skill_bar skill_sqlmysql"></div>
+              </div>
             </div>
           </div>
         </div>

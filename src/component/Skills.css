@@ -8,7 +8,9 @@
   text-transform: uppercase;
 }
 .skills_container {
+  display: flex;
   width: 100%;
+  /* background-color: red; */
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
@@ -19,9 +21,19 @@
   text-transform: capitalize;
   justify-content: flex-start;
 }
+.columns-container {
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
 
 .skills_data {
-  width: 80%;
+  flex: 1; /* Allows columns to grow and shrink equally */
+  padding: 2px;
+  border: 1px solid #ccc;
+  width: 20%;
   justify-content: center;
   display: flex;
   justify-content: space-between;
@@ -43,7 +55,7 @@
 
 .skills_name {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   align-items: center;
   justify-content: center;
 }
@@ -56,7 +68,7 @@
   height: 0.25rem;
 }
 .skill_name {
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 .skill_html {
@@ -83,6 +95,12 @@
 }
 .skill_python {
   width: 50%;
+}
+.skill_excel {
+  width: 80%;
+}
+.skill_sqlmysql {
+  width: 80%;
 }
 .skill_icon {
   width: 20px;
@@ -121,12 +139,26 @@
 .skills_name .python {
   color: #4507c1;
 }
+.skills_name .excel {
+  color: #7a26d9;
+}
+.skills_name .sql {
+  color: #4507c1;
+}
 
 @media screen and (max-width: 600px) {
   .skill {
-    width: 1005;
+    width: 100%;
     padding: 0;
     height: fit-content;
+  }
+  .columns-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100vh;
   }
   .skills_container {
     width: 100%;
@@ -135,10 +167,14 @@
   .skills_subtitle {
     display: flex;
     width: 100%;
-
     text-transform: capitalize;
     justify-content: flex-start;
   }
+  .skills_data {
+    width: 100%;
+    margin: 0;
+  }
+
   .skills_data:hover {
     scale: 1.2;
     background-color: #0896af;
@@ -147,14 +183,21 @@
 @media screen and (max-width: 1200px) {
   .skill {
     height: calc(100vh + 180px);
-    padding-bottom: 50px;
+    padding-bottom: 90px;
   }
   .skills {
     width: 100%;
     height: 100%;
   }
+  .columns-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .skills_container {
     width: 100%;
     height: 100vh;
+  }
+  .skills_data {
+    width: 100%;
   }
 }
